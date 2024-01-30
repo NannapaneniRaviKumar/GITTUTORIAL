@@ -1,0 +1,32 @@
+command prompt(cmd) in windows : In mac and linux we call cmd as Terminal
+Repository is a package/folder for the projects.
+
+Git & Github
+---------------------------
+This topic is  divided into mainly 4 parts 
+1.VCS & git Repo
+
+VCS means Version Control System Why we call this because consider example , We have a project (website) it got some updates and we re-deployed the updates but at some functionality in the project we got errors/bugs we need to resolve so we need to revert back to the old version and fix those errors, to go to that old version we need to save that project at some place/environment that is VCS. 
+
+We have so many Version Control Systems one them is GIT.
+
+There are several remote repository services like bitbucket,beanstalk,gitlab,github...etc.,
+
+Github is one of the example for the remote repository hosting service.
+If we need to work with the project/folder then we should initialise it, to initialize we use
+
+git init -- Initialises the folder as git
+git status -- checks the status of the folders 
+
+
+2.Staging area & commits
+3.Branches 
+4.Issues & PR's(pull Requests)
+
+Working directory is nothing but the local repository
+The folder that we opened in the working directory from the local repository is to make changes, to save that changes we made in working directory to the local repo we use command 
+git commit -m "message" --> for multiple files
+git commit -m "message" filename --> for a specific file
+
+
+
