@@ -1,6 +1,14 @@
 command prompt(cmd) in windows : In mac and linux we call cmd as Terminal
 Repository is a package/folder for the projects.
 
+READme file -- It is a file that specifies what the project is about.
+.GITIGNORE file -- It is a file where we can write the data/files that should be ignored when we add,commit or push the files
+
+The default branch in the GIT is MASTER and in GITHUB is MAIN.
+
+git config --global user.email "my email"
+git config --global user.name "my name"       --- to change mail and name of the user
+
 Git & Github
 ---------------------------
 This topic is  divided into mainly 4 parts 
@@ -25,8 +33,24 @@ git status -- checks the status of the folders
 
 Working directory is nothing but the local repository
 The folder that we opened in the working directory from the local repository is to make changes, to save that changes we made in working directory to the local repo we use command 
+
+Before committing we send our files to the staging area by using command 
+
+git add . --->This command adds our files to staging area i.e files are ready to be  committed .It is mandate to use add before commit.
+
+after using the add command then we should commit otherwise commit command would not work.
+
 git commit -m "message" --> for multiple files
 git commit -m "message" filename --> for a specific file
+
+After committing into local we will push them into the REMOTE REPOSITORY by using command 
+git push -u origin master/main
+
+To push intom remote repo from local we need to first connect local to the remote repo by using the path 
+specified in the github ex :-
+
+git remote add origin https://github.com/NannapaneniRaviKumar/GITTUTORIAL.git
+git remote add origin https://github.com/Account/Project
 
 
 
